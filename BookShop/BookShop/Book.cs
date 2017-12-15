@@ -121,14 +121,11 @@ namespace BookShop
                 return netPrice;
             }
         }
-
+        
         public string GetAllProperties()
         {
             return Isbn + ";" + Title + ";" + Author + ";" + PublishingDate + ";" + GrossPrice + ";" + Vat;
         }
-
-
-
 
     }
 }
