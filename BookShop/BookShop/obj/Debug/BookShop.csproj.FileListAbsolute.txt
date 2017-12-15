@@ -1,1 +1,2 @@
 C:\Users\Marko\Documents\GitHub\Book\BookShop\BookShop\bin\Debug\BookShop.exe.config
+C:\Users\Stefan\Documents\GitHub\Book\BookShop\BookShop\bin\Debug\BookShop.exe.config
