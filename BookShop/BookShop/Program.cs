@@ -38,11 +38,10 @@ namespace BookShop
 
             Console.ReadLine();
 
-            Book[] result = manager.FindAllBooks("Harry Potter");
-            for (int i = 0; i < 1; i++)
-            {
-                Console.WriteLine(result[i].GetAllProperties());
-            }
+            Book result = manager.FindAllBooks("Harry Potter");
+            
+            Console.WriteLine(result.GetAllProperties());
+            
             Console.ReadLine();
         }
     }

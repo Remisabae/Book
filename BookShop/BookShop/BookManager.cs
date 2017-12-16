@@ -69,21 +69,35 @@ namespace BookShop
             }
         }
 
-        public Book[] FindAllBooks(string bookAsString)
+        /*'   public Book[] FindAllBooks(string bookAsString)
+           {
+               int findCount = 0;
+               Book[] result;
+               for (int i = 0; i < _listOfBooks.Length; i++)
+               {
+                       if (_listOfBooks[i].GetAllProperties().Contains(bookAsString))
+                       {
+                           findCount += 1;
+                           result = new Book[findCount];
+
+                           return result;
+                       }
+               }
+               return null;
+           }
+           */ //Did not Succeed to finish the method 
+
+        public Book FindAllBooks(string bookAsString) // New Method 
         {
-            int findCount = 0;
-            Book[] result;
             for (int i = 0; i < _listOfBooks.Length; i++)
             {
-                    if (_listOfBooks[i].GetAllProperties().Contains(bookAsString))
-                    {
-                        findCount += 1;
-                        result = new Book[findCount];
+                if (_listOfBooks[i].GetAllProperties().Contains(bookAsString))
+                {
+                    return _listOfBooks[i];
 
-                        return result;
-                    }
+                }
             }
-            return null;
+            return null; 
         }
 
         #endregion
