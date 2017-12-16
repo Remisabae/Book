@@ -124,7 +124,7 @@ namespace BookShop
         
         public string GetAllProperties()
         {
-            return Isbn + ";" + Title + ";" + Author + ";" + PublishingDate + ";" + GrossPrice + ";" + Vat;
+            return Isbn + ";" + Title + ";" + Author + ";" + PublishingDate.ToString("MMMM dd, yyyy") + ";" + GrossPrice + ";" + Vat;
         }
 
     }

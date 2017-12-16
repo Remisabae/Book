@@ -8,3 +8,8 @@ C:\Users\Marko\Documents\GitHub\Book\BookShop\BookShop\obj\Debug\BookShop.pdb
 =======
 C:\Users\Stefan\Documents\GitHub\Book\BookShop\BookShop\bin\Debug\BookShop.exe.config
 >>>>>>> 7e928798493718a9d54d814bc2e4875382902890
+C:\Users\Stefan\Documents\GitHub\Book\BookShop\BookShop\obj\Debug\BookShop.exe
+C:\Users\Stefan\Documents\GitHub\Book\BookShop\BookShop\obj\Debug\BookShop.pdb
+C:\Users\Stefan\Documents\GitHub\Book\BookShop\BookShop\bin\Debug\BookShop.exe
+C:\Users\Stefan\Documents\GitHub\Book\BookShop\BookShop\bin\Debug\BookShop.pdb
+C:\Users\Stefan\Documents\GitHub\Book\BookShop\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache

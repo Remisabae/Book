@@ -64,18 +64,15 @@ namespace BookShop
             Book[] result;
             for (int i = 0; i < _listOfBooks.Length; i++)
             {
-                if (_listOfBooks[i].GetAllProperties().Contains(bookAsString))
-                {
-                    findCount += 1;
-                    result = new Book[findCount];
-                    result[findCount] = _listOfBooks[i];
-                    return result;
-                }
-                
+                    if (_listOfBooks[i].GetAllProperties().Contains(bookAsString))
+                    {
+                        findCount += 1;
+                        result = new Book[findCount];
+
+                        return result;
+                    }
             }
             return null;
         }
-    
-
     }
 }
