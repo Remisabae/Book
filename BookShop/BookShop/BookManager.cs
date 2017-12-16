@@ -8,9 +8,15 @@ namespace BookShop
 {
     class BookManager
     {
+        #region instance variables
+        
         Book[] _listOfBooks = new Book[MAX_ELEMENTS];
         const int MAX_ELEMENTS = 100;
 
+        #endregion
+
+        #region properties
+        
         public Book[] ListOfBooks
         {
             get
@@ -19,6 +25,11 @@ namespace BookShop
             }
         }
 
+        #endregion
+
+        #region public methods
+
+        
         public void AddBook(Book book)
         {
             for (int i = 0; i < _listOfBooks.Length; i++)
@@ -74,5 +85,7 @@ namespace BookShop
             }
             return null;
         }
+
+        #endregion
     }
 }

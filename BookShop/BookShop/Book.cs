@@ -8,6 +8,8 @@ namespace BookShop
 {
     class Book
     {
+        #region instance variables
+
         string _isbn = "";
         string _title = "";
         string _author = "";
@@ -15,6 +17,11 @@ namespace BookShop
         double _grossPrice;
         int _vat;
 
+        #endregion
+
+        #region constructors
+
+        
         public Book(string isbn, string title, string author)
         {
             _isbn = isbn;
@@ -34,7 +41,11 @@ namespace BookShop
             _vat = Convert.ToInt32(properties[5]);
 
         }
+        #endregion
 
+        #region properties
+
+        
         public string Isbn
         {
             get
@@ -121,11 +132,15 @@ namespace BookShop
                 return netPrice;
             }
         }
+        #endregion
+
+        #region public methods
         
         public string GetAllProperties()
         {
             return Isbn + ";" + Title + ";" + Author + ";" + PublishingDate.ToString("MMMM dd, yyyy") + ";" + GrossPrice + ";" + Vat;
         }
 
+        #endregion
     }
 }
